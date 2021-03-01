@@ -7,13 +7,13 @@
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
             <a-assets>
-                <video id="penguin-sledding" autoplay loop="true" src="assets/test.mp4"></video>
+                <video id="test" autoplay loop="true" src="assets/test.mp4"></video>
             </a-assets>
 
             <!-- handle hiro marker -->
             <a-marker preset="hiro">
               <!-- Using the asset management system. -->
-              <a-video src="#penguin-sledding" width="2" height="2" position="0 0.5 0" material.repeat = True></a-video>
+              <a-video src="#test" width="2" height="2" position="0 0.5 0" material.repeat = True></a-video>
               <a-video src="airbending.mp4"></a-video>
             </a-marker>
 
